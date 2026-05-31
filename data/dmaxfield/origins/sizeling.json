@@ -1,0 +1,9 @@
+{
+	"powers": [
+       "dmaxfield:atomic"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 3,
+	"name": "Subatomic Sizeling",
+	"description": "A physically impossible size-shifter."
+}

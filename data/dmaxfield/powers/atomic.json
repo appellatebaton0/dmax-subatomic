@@ -1,0 +1,20 @@
+{
+    
+    "name": "[+] Atomic",
+    "description": "Your atoms repulse others more than usual, causing you to take no fall damage. Or something.",
+    
+    "type": "origins:modify_damage_taken",
+
+    "damage_condition":
+    {
+        "type": "origins:from_falling"
+    },
+
+    "modifier": 
+    {
+        "name": "Fall DMGn't",
+        "operation": "multiply_total",
+        "value": 0
+    }
+
+}
