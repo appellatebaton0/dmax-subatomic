@@ -1,20 +1,31 @@
 {
-    
     "name": "[+] Atomic",
-    "description": "Your atoms repulse others more than usual, causing you to take no fall damage. Or something.",
-    
-    "type": "origins:modify_damage_taken",
+    "description": "Your atoms' irregular size has made you much less dense, and immune to fall damage.",
 
-    "damage_condition":
+    "type": "origins:multiple",
+
+    "default_fall_speed": 
     {
-        "type": "origins:from_falling"
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.008,
+        "condition": 
+        {
+            "type": "origins:sneaking",
+            "inverted": true
+        }
     },
 
-    "modifier": 
+    "override_fall_speed_when_sneaking": 
     {
-        "name": "Fall DMGn't",
-        "operation": "multiply_total",
-        "value": 0
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.08,
+        "condition": 
+        {
+            "type": "origins:sneaking"
+        }
     }
-
+    
+    
 }
