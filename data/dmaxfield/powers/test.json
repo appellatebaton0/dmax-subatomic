@@ -1,16 +1,17 @@
 {
+    "hidden": true,
     "type": "origins:action_over_time",
     "entity_action": 
     {
         "type": "origins:execute_command",
-        "command": "tellraw @a \"AWA\""
+        "command": ""
     },
     "condition": 
     {
-        "type": "origins:command",
-        "command": "scale get pehkui:base @s 100",
-        "comparison": ">=",
-        "compare_to": 50
+        "type": "origins:resource",
+        "resource": "dmaxfield:stage1/scalar_value",
+        "comparison": "<",
+        "compare_to": 20
     },
-    "interval": 1
+    "interval": 20
 }

@@ -1,7 +1,10 @@
 {
 	"powers": [
         "dmaxfield:test",
-        "dmaxfield:atomic"
+        "dmaxfield:atomic",
+        "dmaxfield:stage1/scalar",
+        "dmaxfield:setup",
+        "dmaxfield:hat_sized"
     ],
     "icon": "minecraft:slime_ball",
     "impact": 3,
