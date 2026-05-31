@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": 
+    {
+        "type": "origins:execute_command",
+        "command": "tellraw @a \"AWA\""
+    },
+    "condition": 
+    {
+        "type": "origins:command",
+        "command": "scale get pehkui:base @s 100",
+        "comparison": ">=",
+        "compare_to": 50
+    },
+    "interval": 1
+}
