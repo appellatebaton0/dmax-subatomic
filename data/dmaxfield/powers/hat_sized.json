@@ -1,6 +1,7 @@
 {
-    "name": "[+] Hat Sized",
+    "name": "§0[§7o§0] §rHat Sized",
     "description": "When under 40% size, you can right click on any living entity to ride it.",
+    "loading_priority": 1,
 
     "type": "origins:action_on_entity_use",
     "bientity_action": {

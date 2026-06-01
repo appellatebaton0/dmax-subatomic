@@ -1,0 +1,12 @@
+{
+    "name": "§0[§c-§0] §rBlack Hole",
+    "description": "Defying the laws of physics is energy intensive - you run out of hunger nearly twice as fast.",
+    "loading_priority": 2,
+
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 0.9
+    }
+}

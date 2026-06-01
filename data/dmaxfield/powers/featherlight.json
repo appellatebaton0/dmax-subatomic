@@ -1,26 +1,15 @@
 {
-    "name": "[+] Featherlight",
-    "description": "When under 30% size, you become light enough to fly with some speed.",
+    "name": "§0[§a+§0] §rFeatherlight",
+    "description": "When under 30% size, you become light enough to fly.",
+    "loading_priority": 3,
 
-    "type": "origins:multiple",
+    "type": "origins:creative_flight",
 
-    "creative_flight":
+    "condition":
     {
-        "type": "origins:creative_flight",
-        "condition":
-        {
-            "type": "origins:command",
-            "command": "scale get pehkui:base @s 100",
-            "comparison": "<=",
-            "compare_to": 30
-        }
-    },
-
-    "slowdown":
-    {
-
-        "condition": {
-            "type": "origins:creative_flying"
-        }
+        "type": "origins:command",
+        "command": "scale get pehkui:base @s 100",
+        "comparison": "<=",
+        "compare_to": 30
     }
 }

@@ -1,0 +1,93 @@
+{
+    "hidden": true,
+
+    "type": "origins:multiple",
+
+    "callbacks":
+    {
+        "type": "origins:action_on_callback",
+        
+        "entity_action_lost": 
+        {
+            "type": "origins:and",
+            "actions": 
+            [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @a 0"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist reset pehkui:base @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist reset pehkui:motion @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist reset pehkui:range @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset pehkui:base @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset pehkui:motion @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay reset pehkui:range @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale modifier reset pehkui:reach"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale modifier remove pehkui:motion"
+                }
+            ]
+        }
+    },
+
+    "persistance": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": 
+            [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set pehkui:base true"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set pehkui:motion true"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set pehkui:range true"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:base 2 @s"
+                },
+                {                
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:motion 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale delay set pehkui:reach 2 @s"
+                }
+            ]
+        },
+        "interval": 200
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "§0[§a+§0] §rMicroscopic",
+    "description": "At your smallest possible size (1%), you become small enough to phase through solid material.",
+    "loading_priority": 3,
+
+    "type": "origins:phasing",
+
+    "blacklist": true,
+    "render_type": "none",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "origins:unphasable"
+    },
+
+    "condition":
+    {
+        "type": "origins:resource",
+        "resource": "dmaxfield:stage3/scalar_value",
+        "comparison": "<=",
+        "compare_to": 0
+    }
+    
+}

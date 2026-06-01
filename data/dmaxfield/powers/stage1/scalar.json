@@ -1,7 +1,8 @@
 {
     
-    "name": "[+] Scalar",
-    "description": "You can change your size at will, from 30% to 300% your original size.",
+    "name": "§0[§a+§0] §rScalar",
+    "description": "You can change your size at will, from 32% to 305% your original size.",
+    "loading_priority": 4,
 
     "type": "origins:multiple",
 
@@ -28,9 +29,20 @@
             "actions": 
             [
                 {
-                    "type": "origins:change_resource",
-                    "resource": "dmaxfield:stage1/scalar_value",
-                    "change": 1
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:sneaking"
+                    },
+                    "if_action": {
+                        "type": "origins:change_resource",
+                        "resource": "dmaxfield:stage1/scalar_value",
+                        "change": 2
+                    },
+                    "else_action": {
+                        "type": "origins:change_resource",
+                        "resource": "dmaxfield:stage1/scalar_value",
+                        "change": 1
+                    }
                 },
                 {
                     "type": "origins:execute_command",
@@ -90,9 +102,20 @@
             "actions": 
             [
                 {
-                    "type": "origins:change_resource",
-                    "resource": "dmaxfield:stage1/scalar_value",
-                    "change": -1
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:sneaking"
+                    },
+                    "if_action": {
+                        "type": "origins:change_resource",
+                        "resource": "dmaxfield:stage1/scalar_value",
+                        "change": -2
+                    },
+                    "else_action": {
+                        "type": "origins:change_resource",
+                        "resource": "dmaxfield:stage1/scalar_value",
+                        "change": -1
+                    }
                 },
                 {
                     "type": "origins:execute_command",
@@ -186,6 +209,24 @@
                     }
                 ]
             }
+        },
+        "interval": 20
+    },
+
+    "scale_catch":
+    {
+        "type": "origins:action_over_time",
+        "entity_action": 
+        {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:base 1.0"
+        },
+        "condition":
+        {
+            "type": "origins:resource",
+            "resource": "dmaxfield:stage1/scalar_value",
+            "comparison": "==",
+            "compare_to": 10
         },
         "interval": 20
     }

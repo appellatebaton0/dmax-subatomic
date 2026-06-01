@@ -1,6 +1,7 @@
 {
-    "name": "[!] ???",
+    "name": "§0[§e!§0] §r???",
     "description": "You're far below your potential... seek the answers in the sky.",
+    "loading_priority": 0,
 
     "type": "origins:action_over_time",
     "entity_action": {
@@ -22,6 +23,14 @@
             {
                 "type": "origins:execute_command",
                 "command": "origin set @s origins:origin dmaxfield:sizeling_stage_2"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale reset pehkui:base"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale delay set pehkui:base 2 @s"
             }
         ]
     },

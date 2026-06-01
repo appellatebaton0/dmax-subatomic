@@ -1,6 +1,8 @@
 {
-    "name": "[+] Atomic",
+    "name": "§0[§a+§0] §rAtomic",
     "description": "Your atoms' irregular size has made you much less dense, and immune to fall damage.",
+    "loading_priority": 3,
+
 
     "type": "origins:multiple",
 

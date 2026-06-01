@@ -1,6 +1,7 @@
 {
-    "name": "[-] Aerated",
+    "name": "§0[§c-§0] §rAerated",
     "description": "The extra space between your atoms has left you vulnerable, especially to fire. Take 10% more damage from all sources, with an added 15% from fire/lava.",
+    "loading_priority": 2,
 
     "type": "origins:multiple",
     

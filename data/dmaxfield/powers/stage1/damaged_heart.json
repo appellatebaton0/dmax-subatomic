@@ -1,6 +1,7 @@
 {
-    "name": "[-] Damaged Heart",
+    "name": "§0[§c-§0] §rDamaged Heart",
     "description": "Your heart is severely damaged, leaving you with only 5 hearts. There's got to be some way to repair it...",
+    "loading_priority": 2,
 
     "type": "origins:attribute",
     "modifier": {

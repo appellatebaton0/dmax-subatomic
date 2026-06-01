@@ -1,12 +1,13 @@
 {
-    "name": "[-] Damaged Heart",
-    "description": "Your heart is severely damaged, leaving you with only 5 hearts. There's got to be some way to repair it...",
+    "name": "§0[§7o§0] §rRepaired Heart",
+    "description": "Your heart has been repaired, putting you back at 10 hearts. There appears to still be room for improvement...",
+    "loading_priority": 1,
 
     "type": "origins:attribute",
     "modifier": {
-        "name": "Max Health Decrease",
+        "name": "Max Health Stay",
         "attribute": "minecraft:generic.max_health",
-        "value": -10,
+        "value": 0,
         "operation": "addition"
     }
 }

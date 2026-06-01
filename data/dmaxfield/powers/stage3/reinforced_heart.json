@@ -1,6 +1,7 @@
 {
-    "name": "[+] Reinforced Heart",
+    "name": "§0[§a+§0] §rReinforced Heart",
     "description": "Your ascension has left your heart reinforced, giving you and extra 5 hearts.",
+    "loading_priority": 3,
 
     "type": "origins:attribute",
     "modifier": {
