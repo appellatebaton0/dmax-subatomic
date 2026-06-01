@@ -29,20 +29,9 @@
             "actions": 
             [
                 {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:sneaking"
-                    },
-                    "if_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage2/scalar_value",
-                        "change": 2
-                    },
-                    "else_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage2/scalar_value",
-                        "change": 1
-                    }
+                    "type": "origins:change_resource",
+                    "resource": "dmaxfield:stage2/scalar_value",
+                    "change": 1
                 },
                 {
                     "type": "origins:execute_command",
@@ -102,20 +91,9 @@
             "actions": 
             [
                 {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:sneaking"
-                    },
-                    "if_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage2/scalar_value",
-                        "change": -2
-                    },
-                    "else_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage2/scalar_value",
-                        "change": -1
-                    }
+                    "type": "origins:change_resource",
+                    "resource": "dmaxfield:stage2/scalar_value",
+                    "change": -1
                 },
                 {
                     "type": "origins:execute_command",

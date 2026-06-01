@@ -1,7 +1,7 @@
 {
     
     "name": "§0[§a+§0] §rScalar (III)",
-    "description": "You can change your size at will, from 1% to 2840% your original size.",
+    "description": "You can change your size at will, from 1% to 1625% your original size.",
     "loading_priority": 4,
 
     "type": "origins:multiple",
@@ -10,7 +10,7 @@
     {
         "type": "origins:resource",
         "min": 0,
-        "max": 70,
+        "max": 65,
         "hud_render": {
             "should_render": true,
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
@@ -29,20 +29,9 @@
             "actions": 
             [
                 {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:sneaking"
-                    },
-                    "if_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage3/scalar_value",
-                        "change": 2
-                    },
-                    "else_action": {
-                        "type": "origins:change_resource",
-                        "resource": "dmaxfield:stage3/scalar_value",
-                        "change": 1
-                    }
+                    "type": "origins:change_resource",
+                    "resource": "dmaxfield:stage3/scalar_value",
+                    "change": 1
                 },
                 {
                     "type": "origins:execute_command",
@@ -59,7 +48,7 @@
                     "type": "origins:resource",
                     "resource": "dmaxfield:stage3/scalar_value",
                     "comparison": "<",
-                    "compare_to": 70
+                    "compare_to": 65
                 },
                 {
                     "type": "origins:and",
