@@ -1,0 +1,18 @@
+{
+	"powers": [
+        "dmaxfield:test",
+        "dmaxfield:atomic",
+        "dmaxfield:setup",
+        "dmaxfield:hat_sized",
+        "dmaxfield:aerated",
+
+        "dmaxfield:stage3/scalar",
+        "dmaxfield:stage3/reinforced_heart"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 3,
+	"name": "Subatomic Sizeling (III)",
+	"description": "A physically impossible size-shifter.",
+
+    "unchoosable": true
+}

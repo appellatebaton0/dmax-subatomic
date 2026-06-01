@@ -2,9 +2,13 @@
 	"powers": [
         "dmaxfield:test",
         "dmaxfield:atomic",
-        "dmaxfield:stage1/scalar",
         "dmaxfield:setup",
-        "dmaxfield:hat_sized"
+        "dmaxfield:hat_sized",
+        "dmaxfield:aerated",
+
+        "dmaxfield:stage1/scalar",
+        "dmaxfield:stage1/damaged_heart",
+        "dmaxfield:stage1/progressor"
     ],
     "icon": "minecraft:slime_ball",
     "impact": 3,

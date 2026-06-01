@@ -1,0 +1,43 @@
+{
+    "name": "[!] ???",
+    "description": "Though you're back in your prime, something feels missing. Find the answers in a cold place.",
+
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": 
+        [
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 0.2 120 force"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 0.2 1.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "xp add @s 20 levels"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:origin dmaxfield:sizeling_stage_3"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale reset pehkui:base"
+            }
+        ]
+    },
+    "interval": 200,
+    
+    "condition": 
+    {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": "<",
+            "compare_to": 0.15
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "[+] Reinforced Heart",
+    "description": "Your ascension has left your heart reinforced, giving you and extra 5 hearts.",
+
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max Health Add",
+        "attribute": "minecraft:generic.max_health",
+        "value": 10,
+        "operation": "addition"
+    }
+}

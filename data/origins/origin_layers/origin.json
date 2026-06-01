@@ -3,6 +3,8 @@
 
     "origins": 
     [
-        "dmaxfield:sizeling"
+        "dmaxfield:sizeling_stage_1",
+        "dmaxfield:sizeling_stage_2",
+        "dmaxfield:sizeling_stage_3"
     ]
 }

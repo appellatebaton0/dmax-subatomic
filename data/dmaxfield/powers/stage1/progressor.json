@@ -1,0 +1,44 @@
+{
+    "name": "[!] ???",
+    "description": "You're far below your potential... seek the answers in the sky.",
+
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": 
+        [
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run particle minecraft:end_rod ~ ~1 ~ 0 0 0 1 500 force"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ 0.2 2"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "xp add @s 10 levels"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:origin dmaxfield:sizeling_stage_2"
+            }
+        ]
+    },
+    "interval": 200,
+    
+    "condition": {
+        "type": "origins:distance_from_coordinates",
+        "offset": 
+        {
+            "x": 0,
+            "y": 310,
+            "z": 0
+        },
+        "ignore_x": true,
+        "ignore_z": true,
+        "shape": "sphere",
+        "comparison": "<=",
+        "compare_to": 20
+    }
+}

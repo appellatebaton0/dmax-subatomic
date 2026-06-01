@@ -9,6 +9,10 @@
         [
             {
                 "type": "origins:execute_command",
+                "command": "tellraw @a 0"
+            },
+            {
+                "type": "origins:execute_command",
                 "command": "scale persist reset pehkui:base @s"
             },
             {
@@ -46,38 +50,38 @@
         ]
     },
 
-    "entity_action_chosen": 
+    "entity_action_added": 
     {
         "type": "origins:and",
         "actions": 
         [
             {
                 "type": "origins:execute_command",
-                "command": "scale persist set pehkui:base true @s"
+                "command": "scale reset @s"
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale persist set pehkui:motion true @s"
+                "command": "scale persist set pehkui:base true "
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale persist set pehkui:range true @s"
+                "command": "scale persist set pehkui:motion true "
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale persist set pehkui:range true "
             },
             {
                 "type": "origins:execute_command",
                 "command": "scale delay set pehkui:base 2 @s"
             },
-            {
+            {                
                 "type": "origins:execute_command",
                 "command": "scale delay set pehkui:motion 2 @s"
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale delay set pehkui:range 2 @s"
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "scale reset @s"
+                "command": "scale delay set pehkui:reach 2 @s"
             }
         ]
     }

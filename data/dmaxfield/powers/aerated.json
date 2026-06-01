@@ -1,0 +1,42 @@
+{
+    "name": "[-] Aerated",
+    "description": "The extra space between your atoms has left you vulnerable, especially to fire. Take 10% more damage from all sources, with an added 15% from fire/lava.",
+
+    "type": "origins:multiple",
+    
+    "10_percent":
+    {
+    
+        "type": "origins:modify_damage_taken",
+        "damage_armor_condition": 
+        {
+            "type": "origins:constant",
+            "value": false
+        },
+        "modifiers": 
+        [
+            {
+                "operation": "multiply_total_multiplicative",
+                "value": 0.10
+            }
+        ]
+    },
+
+    "fire_lava":
+    {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": 
+        {
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fire"
+        },
+        "modifiers": 
+        [
+            {
+                "operation": "multiply_total_multiplicative",
+                "value": 0.15
+            }
+
+        ]
+    }
+}

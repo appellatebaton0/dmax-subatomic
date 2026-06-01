@@ -4,14 +4,11 @@
     "entity_action": 
     {
         "type": "origins:execute_command",
-        "command": ""
+        "command": "tellraw @s 0"
     },
     "condition": 
     {
-        "type": "origins:resource",
-        "resource": "dmaxfield:stage1/scalar_value",
-        "comparison": "<",
-        "compare_to": 20
+        "type": "origins:in_rain"
     },
-    "interval": 20
+    "interval": 1
 }
