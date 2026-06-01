@@ -3,7 +3,7 @@ An origin that lets you unlock a ridiculous amount of control over your own size
 
 This origin is a (much better) recreation of an origin I made last year that I no longer have the files for. Made for a friend <3
 
-<img width="897" height="1007" alt="image" src="https://github.com/user-attachments/assets/9ffacd9f-0058-4f31-8193-a82668f2b3e6" /><img width="897" height="1007" alt="image" src="https://github.com/user-attachments/assets/840e7101-2d73-4449-aa25-6b5a221c3fe0" />
+<img width="50%" alt="smallest" src="https://github.com/user-attachments/assets/9ffacd9f-0058-4f31-8193-a82668f2b3e6" /><img width="50%" alt="biggest" src="https://github.com/user-attachments/assets/840e7101-2d73-4449-aa25-6b5a221c3fe0" />
 The smallest and biggest you can get, with a chicken under a tree beside a village house for scale.
 
 ## Pros
@@ -15,10 +15,10 @@ The smallest and biggest you can get, with a chicken under a tree beside a villa
 - Permanent slow falling, and no fall damage (slow falling disables while sneaking)
 ### Stage 2+
 - When at 30% size or below, you gain creative flight.
-  <img width="719" height="663" alt="image" src="https://github.com/user-attachments/assets/efdffcb5-ebaf-4f6a-916b-4c93215fa009" />
+  <img width="20%" alt="flying in survival" src="https://github.com/user-attachments/assets/efdffcb5-ebaf-4f6a-916b-4c93215fa009" />
 ### Stage 3
 - When at 1% size, you can phase through materials.
-  <img width="1804" height="1054" alt="image" src="https://github.com/user-attachments/assets/54d0046d-822d-420a-a761-fcc544dfdf14" />
+  <img width="20%" alt="phasing" src="https://github.com/user-attachments/assets/54d0046d-822d-420a-a761-fcc544dfdf14" />
 
 
 ## Cons
@@ -28,7 +28,7 @@ The smallest and biggest you can get, with a chicken under a tree beside a villa
 
 ## Passives
 - When at 40$ size or below, you can right click any mob with an empty hand to ride it.
-  <img width="262" height="447" alt="image" src="https://github.com/user-attachments/assets/7706f97b-1a85-4180-8b62-25e8214257da" />
+  <img width="20%" alt="riding" src="https://github.com/user-attachments/assets/7706f97b-1a85-4180-8b62-25e8214257da" />
 - Your health scales with your stage;
     - Stage 1: 10hp (5 hearts)
     - Stage 2: 20hp (10 hearts)
