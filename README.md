@@ -3,10 +3,7 @@ An origin that lets you unlock a ridiculous amount of control over your own size
 
 This origin is a (much better) recreation of an origin I made last year that I no longer have the files for. Made for a friend <3
 
-<p align="center" width="100%">
-<video src="https://user-cdn.hackclub-assets.com/019e8f6d-a337-78a4-b448-830f97af4a5a/2026-06-03%2016-33-40.mp4" width="80%" controls></video>
-</p>
-
+<video src="https://github.com/user-attachments/assets/af879d83-64fd-4be2-9b68-3734ea88fb97" width="100%" controls></video>
 
 <img width="50%" alt="smallest" src="https://github.com/user-attachments/assets/9ffacd9f-0058-4f31-8193-a82668f2b3e6" /><img width="50%" alt="biggest" src="https://github.com/user-attachments/assets/840e7101-2d73-4449-aa25-6b5a221c3fe0" />
 The smallest and biggest you can get, with a chicken under a tree beside a village house for scale.
