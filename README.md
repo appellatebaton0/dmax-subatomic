@@ -3,7 +3,9 @@ An origin that lets you unlock a ridiculous amount of control over your own size
 
 This origin is a (much better) recreation of an origin I made last year that I no longer have the files for. Made for a friend <3
 
-<iframe width="100%" src="https://user-cdn.hackclub-assets.com/019e8f6d-a337-78a4-b448-830f97af4a5a/2026-06-03%2016-33-40.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center" width="100%">
+<video src="[https://github.com/user-attachments/assets/563d36e5-1c92-49e6-aa88-c873a20ddf1d](https://user-cdn.hackclub-assets.com/019e8f6d-a337-78a4-b448-830f97af4a5a/2026-06-03%2016-33-40.mp4)" width="80%" controls></video>
+</p>
 
 
 <img width="50%" alt="smallest" src="https://github.com/user-attachments/assets/9ffacd9f-0058-4f31-8193-a82668f2b3e6" /><img width="50%" alt="biggest" src="https://github.com/user-attachments/assets/840e7101-2d73-4449-aa25-6b5a221c3fe0" />
